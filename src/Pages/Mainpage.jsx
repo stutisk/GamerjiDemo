@@ -17,6 +17,9 @@ export const Mainpage = () => {
         <div className="margin-auto"></div>
       </MainPageTitleSection>
       <Card />
+
+       
+
       <MainPageTitleSection>
         <div className="margin-auto"></div>
         <Title>Popular Videos</Title>
@@ -25,6 +28,17 @@ export const Mainpage = () => {
       <MainPageCardsSection>
         <Cards/>
       </MainPageCardsSection>
+
+      <MainPageTitleSection>
+        <div className="margin-auto"></div>
+        <Title>Top Profiles</Title>
+        <MainPageLinks>View All</MainPageLinks>
+      </MainPageTitleSection>
+      <MainPageCardsSection>
+        <Cards2/>
+      </MainPageCardsSection>
+
+
       <MainPageTitleSection>
         <div className="margin-auto"></div>
         <Title>eSports News</Title>
@@ -33,6 +47,7 @@ export const Mainpage = () => {
       <MainPageCardsSection>
         <Cards2/>
       </MainPageCardsSection>
+
     </MainPageContainer>
   );
 };
