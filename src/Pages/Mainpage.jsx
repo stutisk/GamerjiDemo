@@ -1,8 +1,8 @@
-import { MainPageContainer } from "../Styles/Mainpage.style"
+import { MainPageContainer, Title } from "../Styles/Mainpage.style"
 export const  Mainpage = () => {
     return(
     <MainPageContainer>
-        hy
+        <Title>Featured Video</Title>
     </MainPageContainer>
     )
 }
