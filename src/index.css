@@ -22,3 +22,21 @@ iframe{
 .border-radius{
   border-radius: 5px;
 }
+
+.marqueeText {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 5s linear infinite;
+  float: left;
+
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
