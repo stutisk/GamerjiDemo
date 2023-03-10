@@ -110,12 +110,12 @@ export const CardButton = styled.button`
   cursor: pointer;
 `;
 
-export const Avtarimage = styled.button`
+export const Avtarimage = styled.div`
   
   position: absolute;
  top:-5%;
   left: 40%;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 3px solid white;
   
 `;
