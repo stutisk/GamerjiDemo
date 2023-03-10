@@ -22,7 +22,7 @@ export const MainPageTitleSection = styled.div`
 export const MainPageCardsSection = styled.div`
   display: flex;
 
-  justify-content: space-between;
+  gap:6px;
 `;
 
 export const MainPageLinks = styled(NavLink)`

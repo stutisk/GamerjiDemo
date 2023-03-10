@@ -18,3 +18,7 @@ iframe{
 .margin-auto{
   margin: auto;
 }
+
+.border-radius{
+  border-radius: 5px;
+}

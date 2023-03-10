@@ -1,4 +1,5 @@
 import { Card } from "../Components/Card";
+import { Cards2 } from "../Components/Card2";
 import { Cards } from "../Components/Cards";
 import {
   MainPageContainer,
@@ -29,6 +30,9 @@ export const Mainpage = () => {
         <Title>eSports News</Title>
         <MainPageLinks>View All</MainPageLinks>
       </MainPageTitleSection>
+      <MainPageCardsSection>
+        <Cards2/>
+      </MainPageCardsSection>
     </MainPageContainer>
   );
 };
