@@ -10,7 +10,11 @@ import {
 export const Mainpage = () => {
   return (
     <MainPageContainer>
-      <Title>Featured Video</Title>
+       <MainPageTitleSection>
+        <div className="margin-auto"></div>
+        <Title>Featured Video</Title>
+        <div className="margin-auto"></div>
+      </MainPageTitleSection>
       <Card />
       <MainPageTitleSection>
         <div className="margin-auto"></div>
@@ -20,6 +24,11 @@ export const Mainpage = () => {
       <MainPageCardsSection>
         <Cards/>
       </MainPageCardsSection>
+      <MainPageTitleSection>
+        <div className="margin-auto"></div>
+        <Title>eSports News</Title>
+        <MainPageLinks>View All</MainPageLinks>
+      </MainPageTitleSection>
     </MainPageContainer>
   );
 };
