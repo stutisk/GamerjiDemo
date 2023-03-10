@@ -7,7 +7,8 @@ height: 200px;
 export const CardsContainer = styled.div`
 height: 150px;
 display: flex;
-justify-content: space-between;
+gap:6px;
 width:154px;
+flex-wrap: wrap;
 
 `;
