@@ -1,4 +1,4 @@
-import { Card3Container, CardSubText, CardText } from "../Styles/Card.style";
+import { Card3Container, CardSubText, CardText,CardButton, Container, ContainerCard } from "../Styles/Card.style";
 import { Card } from "./Card";
 
 const cards = [
@@ -18,10 +18,14 @@ export const Card3 = () => {
   return (
     <>
       {cards.map((card) => (
-        <Card3Container style={{ backgroundColor: card.color }}>
+        <Card3Container >
+        <Card3Container className="padding" style={{ backgroundColor: card.color }}>
           <CardText>{card.title}</CardText>
           <CardSubText>{card.subTitle}</CardSubText>
+        
         </Card3Container>
+          <CardButton>hey</CardButton>
+          </Card3Container>
       ))}
     </>
   );
