@@ -113,7 +113,7 @@ export const CardButton = styled.button`
 export const Avtarimage = styled.div`
   
   position: absolute;
- top:-5%;
+ top:-10%;
   left: 40%;
   border-radius: 50%;
   border: 3px solid white;
