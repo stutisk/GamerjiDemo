@@ -11,8 +11,9 @@ export const Mainpage = () => {
       <Title>Featured Video</Title>
       <Card />
       <MainPageContainerSection>
-        <Title>Featured Video</Title>
-        <MainPageLinks>View</MainPageLinks>
+      <div className="margin-auto"></div>
+        <Title>Popular Videos</Title>
+        <MainPageLinks>View All</MainPageLinks>
 
       </MainPageContainerSection>
     </MainPageContainer>
