@@ -14,6 +14,18 @@ export const CardsContainer = styled.div`
   flex-direction: column;
 `;
 
+export const Card3Container = styled.div`
+  height: 120px;
+  display: flex;
+
+  width: 100%;
+  padding: 7px;
+  background-color: #ff8c00;
+  border-radius: 10px;
+  flex-direction: column;
+
+`;
+
 export const Cards2Container = styled.div`
   height: 150px;
   display: flex;
@@ -45,4 +57,26 @@ export const Cardmarqueetext = styled.div`
 
   overflow: hidden;
   position: relative;
+`;
+
+export const CardText = styled.div`
+
+ color: white;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 1rem;
+`;
+
+export const CardSubText = styled.div`
+
+ color: white;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+ font-weight: 700;
+ font-size: 1rem;
 `;

@@ -1,5 +1,6 @@
 import { Card } from "../Components/Card";
 import { Cards2 } from "../Components/Card2";
+import { Card3 } from "../Components/Card3";
 import { Cards } from "../Components/Cards";
 import {
   MainPageContainer,
@@ -35,7 +36,7 @@ export const Mainpage = () => {
         <MainPageLinks>View All</MainPageLinks>
       </MainPageTitleSection>
       <MainPageCardsSection>
-        <Cards2/>
+        <Card3/>
       </MainPageCardsSection>
 
 
