@@ -4,18 +4,20 @@ import {
   Cards2text,
   Cardmarqueetext,
 } from "../Styles/Card.style";
-import ReactPlayer from "react-player";
+
 
 const cards = [
   {
     image:
       "https://res.cloudinary.com/dvbw8xujd/image/upload/v1678435181/aflyuyrfatyfzemnhxut.jpg",
     title: "ESFI Announces National Esports",
+    color: "#ff8c00",
   },
   {
     image:
       "https://res.cloudinary.com/dvbw8xujd/image/upload/v1678435319/mkesrc9xylnbnyvplj4r.jpg",
     title: "Indian LAN Gaming Announced Season 4 of ILG Cup",
+    color: "#43f2ff",
   },
 ];
 
@@ -23,7 +25,7 @@ export const Cards2 = () => {
   return (
     <>
       {cards.map((card) => (
-        <Cards2Container>
+        <Cards2Container style={{ backgroundColor: card.color}}>
           <Cards2Image>
             <img
               src={card.image}

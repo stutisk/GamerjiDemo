@@ -6,9 +6,12 @@ export const CardContainer = styled.div`
 export const CardsContainer = styled.div`
   height: 150px;
   display: flex;
-  gap: 6px;
-  width: 154px;
-  flex-wrap: wrap;
+
+  width: 100%;
+  padding: 7px;
+  background-color: #ff8c00;
+  border-radius: 10px;
+  flex-direction: column;
 `;
 
 export const Cards2Container = styled.div`
@@ -17,7 +20,7 @@ export const Cards2Container = styled.div`
 
   width: 100%;
   padding: 7px;
-  background-color: #ff8c00;
+
   border-radius: 10px;
   flex-direction: column;
 `;
