@@ -75,7 +75,7 @@ export const CardText = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 45px;
   text-transform: uppercase;
   font-size: 1rem;
 `;
