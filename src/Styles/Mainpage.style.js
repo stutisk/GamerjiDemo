@@ -6,16 +6,26 @@ export const MainPageContainer = styled.div`
 box-shadow: 0px 0px 273px -69px rgba(84,85,89,1);
 max-width:475px;
  height: 100vh;
- padding: 45px 12px 25px;
+ padding: 10px 20px 25px;
  border-radius: 35px;
  margin:1rem
 
 `;
 
+export const MainPageContainerSection = styled.div`
+display: flex;
+
+`;
+export const MainPageLinks = styled.link`
+display: flex;
+
+`;
+
+
 export const Title = styled.div`
 text-align: center;
 font-weight: 700;
 font-size: 1rem;
-margin-bottom: 1rem;
+margin: 1.5rem;
  
 `;
