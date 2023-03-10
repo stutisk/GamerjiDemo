@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 export const Card = () => {
     return(
-        <CardContainer>
+        <CardContainer className="padding">
             <ReactPlayer
           controls
           url={"https://www.youtube.com/watch?v=o3q35XrW2Jk"}

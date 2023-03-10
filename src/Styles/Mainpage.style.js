@@ -7,9 +7,9 @@ export const MainPageContainer = styled.div`
   box-shadow: 0px 0px 273px -69px rgba(84, 85, 89, 1);
   max-width: 475px;
 
-  padding: 10px 20px 25px;
+  padding: 0 10px 20px 25px;
   border-radius: 35px;
-  margin: 1rem;
+ 
 `;
 
 export const MainPageTitleSection = styled.div`

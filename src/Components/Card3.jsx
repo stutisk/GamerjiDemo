@@ -6,7 +6,7 @@ import {
   Container,
   Avtarimage
 } from "../Styles/Card.style";
-import { Card } from "./Card";
+
 
 const cards = [
   {
