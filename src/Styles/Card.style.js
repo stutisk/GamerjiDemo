@@ -20,10 +20,9 @@ export const Card3Container = styled.div`
 
   width: 100%;
   padding: 7px;
- 
+
   border-radius: 10px;
   flex-direction: column;
-
 `;
 
 export const Container = styled.div`
@@ -32,11 +31,10 @@ export const Container = styled.div`
 
   width: 100%;
   padding: 7px;
- 
+
   border-radius: 10px;
   flex-direction: column;
   position: relative;
-
 `;
 
 export const Cards2Container = styled.div`
@@ -73,44 +71,51 @@ export const Cardmarqueetext = styled.div`
 `;
 
 export const CardText = styled.div`
-
- color: white;
- display: flex;
+  color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 30px;
   text-transform: uppercase;
   font-size: 1rem;
 `;
 
 export const CardSubText = styled.div`
-
- color: white;
- display: flex;
+  color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
- font-weight: 700;
- font-size: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
 `;
 
 export const CardButton = styled.button`
-
- color: white;
- display: flex;
+  color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
- font-weight: 700;
- font-size: 1rem;
- width: 20%;
- padding: 10px 4rem;
- background-color: white;
- color:#130e2d;
- border:2px solid #130e2d;
- border-radius: 10px;
- position: absolute;
-bottom:-8%;
- left:25%;
- cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 20%;
+  padding: 10px 4rem;
+  background-color: white;
+  color: #130e2d;
+  border: 2px solid #130e2d;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -8%;
+  left: 25%;
+  cursor: pointer;
+`;
+
+export const Avtarimage = styled.button`
+  
+  position: absolute;
+ top:-5%;
+  left: 40%;
+  border-radius: 50%;
+  border: 1px solid white;
+  
 `;

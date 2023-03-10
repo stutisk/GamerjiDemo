@@ -21,6 +21,11 @@ code {
   border-radius: 5px;
 }
 
+.border-radius2{
+  border-radius: 50%;
+}
+
+
 .marqueeText {
   display: block;
   width: 200%;
