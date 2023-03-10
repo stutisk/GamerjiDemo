@@ -16,5 +16,6 @@ export const Title = styled.div`
 text-align: center;
 font-weight: 700;
 font-size: 1rem;
+margin-bottom: 1rem;
  
 `;
