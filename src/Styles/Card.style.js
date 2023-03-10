@@ -19,7 +19,7 @@ export const Card3Container = styled.div`
   display: flex;
 
   width: 100%;
-  padding: 7px;
+
 
   border-radius: 10px;
   flex-direction: column;
@@ -30,7 +30,7 @@ export const Container = styled.div`
   display: flex;
 
   width: 100%;
-  padding: 7px;
+ 
 
   border-radius: 10px;
   flex-direction: column;

@@ -35,7 +35,7 @@ export const Card3 = () => {
           />
           </Avtarimage>
           <Card3Container
-            className="padding"
+         
             style={{ backgroundColor: card.color }}
           >
             <CardText>{card.title}</CardText>
