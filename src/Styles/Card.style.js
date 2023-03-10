@@ -26,6 +26,18 @@ export const Card3Container = styled.div`
 
 `;
 
+export const Container = styled.div`
+  height: 170px;
+  display: flex;
+
+  width: 100%;
+  padding: 7px;
+ 
+  border-radius: 10px;
+  flex-direction: column;
+  position: relative;
+
+`;
 
 export const Cards2Container = styled.div`
   height: 150px;
@@ -43,7 +55,7 @@ export const Cards2Image = styled.div`
   width: 100%;
 `;
 export const Cards2text = styled.div`
-  width: 170px;
+  width: 150px;
   -webkit-line-clamp: 2;
   overflow: hidden;
   display: -webkit-box;
@@ -66,7 +78,7 @@ export const CardText = styled.div`
  display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 70px;
   text-transform: uppercase;
   font-size: 1rem;
 `;
@@ -91,4 +103,14 @@ export const CardButton = styled.button`
   margin-top: 10px;
  font-weight: 700;
  font-size: 1rem;
+ width: 20%;
+ padding: 10px 4rem;
+ background-color: white;
+ color:#130e2d;
+ border:2px solid #130e2d;
+ border-radius: 10px;
+ position: absolute;
+bottom:-8%;
+ left:25%;
+ cursor: pointer;
 `;

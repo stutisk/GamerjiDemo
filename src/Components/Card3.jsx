@@ -18,14 +18,14 @@ export const Card3 = () => {
   return (
     <>
       {cards.map((card) => (
-        <Card3Container >
+        <Container >
         <Card3Container className="padding" style={{ backgroundColor: card.color }}>
           <CardText>{card.title}</CardText>
           <CardSubText>{card.subTitle}</CardSubText>
         
         </Card3Container>
-          <CardButton>hey</CardButton>
-          </Card3Container>
+          <CardButton>Follow</CardButton>
+          </Container>
       ))}
     </>
   );
