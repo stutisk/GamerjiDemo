@@ -15,7 +15,7 @@ export const CardsContainer = styled.div`
 `;
 
 export const Card3Container = styled.div`
-  height: 170px;
+  height: 155px;
   display: flex;
 
   width: 100%;
@@ -75,7 +75,7 @@ export const CardText = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 55px;
   text-transform: uppercase;
   font-size: 1rem;
 `;
@@ -105,8 +105,8 @@ export const CardButton = styled.button`
   border: 2px solid #130e2d;
   border-radius: 10px;
   position: absolute;
-  bottom: -8%;
-  left: 25%;
+  bottom: -4%;
+  left: 20%;
   cursor: pointer;
 `;
 
