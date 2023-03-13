@@ -5,8 +5,8 @@ export const MainPageContainer = styled.div`
   -webkit-box-shadow: 0px 0px 273px -69px rgba(84, 85, 89, 1);
   -moz-box-shadow: 0px 0px 273px -69px rgba(84, 85, 89, 1);
   box-shadow: 0px 0px 273px -69px rgba(84, 85, 89, 1);
-  max-width: 450px;
-
+  max-width: 470px;
+min-width:470px;
  
   border-radius: 35px;
  
@@ -50,7 +50,7 @@ export const MainSection = styled.div`
 background-color: red;
     height: 420px;
     position: absolute;
-    width: 450px;
+    width: 470px;
     z-index: -1;
     border-top-left-radius:35px;
     border-top-right-radius:35px;
@@ -60,7 +60,7 @@ background-color: red;
 export const YellowInnerSection = styled.div`
 background-color: #ffc609;
     position: absolute;
-    width: 450px;
+    width: 470px;
     z-index: -1;
     border-top-left-radius:35px;
     border-top-right-radius:35px;
@@ -70,7 +70,7 @@ background-color: #ffc609;
 export const WhiteInnerSection = styled.div`
 background-color: white;
     position: absolute;
-    width: 450px;
+    width: 470px;
     z-index: -1;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
