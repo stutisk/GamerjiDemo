@@ -15,6 +15,10 @@ code {
   padding: 0 2rem;
 }
 
+.padding1{
+  padding: 1rem;
+}
+
 .margin-auto{
   margin: auto;
 }
@@ -46,3 +50,6 @@ code {
   100% { left: -100%; }
 }
 
+/* iframe{
+  width: 90%;
+} */

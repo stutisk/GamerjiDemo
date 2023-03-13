@@ -2,13 +2,19 @@ import styled from "styled-components";
 
 export const CardContainer = styled.div`
   height: 200px;
+  border:10px solid  #ffc609;
+  border-radius: 10px;
+  
+
 `;
+
+
 export const CardsContainer = styled.div`
   height: 150px;
   display: flex;
 
   width: 100%;
-  padding: 7px;
+  padding: 7px 7px 0 7px;
   background-color: #ff8c00;
   border-radius: 10px;
   flex-direction: column;
@@ -105,7 +111,7 @@ export const CardButton = styled.button`
   border: 2px solid #130e2d;
   border-radius: 10px;
   position: absolute;
-  bottom: -4%;
+  bottom: -2%;
   left: 20%;
   cursor: pointer;
 `;
@@ -114,7 +120,7 @@ export const Avtarimage = styled.div`
   
   position: absolute;
  top:-10%;
-  left: 40%;
+  left: 37%;
   border-radius: 50%;
   border: 3px solid white;
   

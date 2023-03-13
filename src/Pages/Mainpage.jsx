@@ -8,10 +8,22 @@ import {
   MainPageLinks,
   Title,
   MainPageCardsSection,
+  MainSection,
+  Section,
+  RedSection,
+  YellowInnerSection,
+  WhiteInnerSection,
 } from "../Styles/Mainpage.style";
 export const Mainpage = () => {
   return (
+
+
     <MainPageContainer>
+    <MainSection>
+  <YellowInnerSection></YellowInnerSection>
+  <WhiteInnerSection></WhiteInnerSection>
+  </MainSection>
+  <Section>
        <MainPageTitleSection>
         <div className="margin-auto"></div>
         <Title>Featured Video</Title>
@@ -48,7 +60,8 @@ export const Mainpage = () => {
       <MainPageCardsSection>
         <Cards2/>
       </MainPageCardsSection>
-
+      </Section>
     </MainPageContainer>
+   
   );
 };

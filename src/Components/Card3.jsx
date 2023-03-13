@@ -29,8 +29,8 @@ export const Card3 = () => {
             <Avtarimage>
           <img
             src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1652635707/w-1_c_mev7zg.jpg"
-            height="40px"
-            width="40px"
+            height="50px"
+            width="50px"
             className="border-radius2"
           />
           </Avtarimage>
