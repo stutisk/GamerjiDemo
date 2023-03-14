@@ -23,25 +23,28 @@ const cards = [
 
 const fetchData = async () => {
   const headers = {
-    "x-access-token": "AYCe6lL4KhkuVTzJ31f/siKMucPrOdLE1LZfXv/oYGvFS7RF2JWr7OZijNIaz3TtrFvXZD1kpvWLAnUPln7WvQ==",
+    "x-access-token":
+      "AYCe6lL4KhkuVTzJ31f/siKMucPrOdLE1LZfXv/oYGvFS7RF2JWr7OZijNIaz3TtrFvXZD1kpvWLAnUPln7WvQ==",
     "company-code": "GJ",
     "content-type": "application/json",
-    "country": "611e04284ac17121fd8b1a54"
+    country: "611e04284ac17121fd8b1a54",
   };
-  
+
   const body = {
-    skip: 0,
-    limit: 2,
-    sort: "desc",
-    sortBy: "createdAt"
+    // skip: 0,
+    // limit: 2,
+    // sort: "desc",
+    // sortBy: "createdAt",
   };
-  
-  const response = await axios.post("https://api.gamerji.tech/api/blogs/list", body, { headers });
-  console.log(response.data.list)
+
+  const response = await axios.post(
+    "https://api.gamerji.tech/api/blogs/list",
+    body,
+    { headers }
+  );
+  console.log(response.data.list);
 };
 fetchData();
-
-
 
 export const Cards2 = () => {
   return (
