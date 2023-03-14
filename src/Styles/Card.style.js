@@ -112,8 +112,13 @@ export const CardButton = styled.button`
   border-radius: 10px;
   position: absolute;
   bottom: -2%;
-  left: 20%;
+  transform: translate(-50%);
+  left: calc(20% + 60px);
   cursor: pointer;
+  @media only screen and (max-width: 440px) and (min-width: 300px)  {
+    left: calc(20% + 50px)
+
+  }
 `;
 
 export const Avtarimage = styled.div`

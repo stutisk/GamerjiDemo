@@ -6,17 +6,19 @@ export const MainPageContainer = styled.div`
   -moz-box-shadow: 0px 0px 273px -69px rgba(84, 85, 89, 1);
   box-shadow: 0px 0px 273px -69px rgba(84, 85, 89, 1);
   max-width: 470px;
-min-width:470px;
- 
+  min-width: 470px;
+position:relative;
   border-radius: 35px;
- 
+  @media only screen and (max-width: 470px) and (min-width: 300px)  {
+    max-width: 470px;
+  min-width: 300px;
+
+  }
+
 `;
 export const Section = styled.div`
- 
   padding: 0 25px 20px 25px;
- 
 `;
-
 
 export const MainPageTitleSection = styled.div`
   display: flex;
@@ -28,7 +30,7 @@ export const MainPageTitleSection = styled.div`
 export const MainPageCardsSection = styled.div`
   display: flex;
 
-  gap:11px;
+  gap: 11px;
 `;
 
 export const MainPageLinks = styled(NavLink)`
@@ -47,33 +49,39 @@ export const Title = styled.div`
 `;
 
 export const MainSection = styled.div`
-background-color: red;
-    height: 420px;
-    position: absolute;
-    width: 470px;
-    z-index: -1;
-    border-top-left-radius:35px;
-    border-top-right-radius:35px;
-    border-bottom-left-radius:40px
+  background-color: red;
+  height: 420px;
+  position: absolute;
+  /* max-width: 470px;
+  min-width: 470px; */
+  width:100%;
+
+  z-index: -1;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 40px;
+ 
 `;
 
 export const YellowInnerSection = styled.div`
-background-color: #ffc609;
-    position: absolute;
-    width: 470px;
-    z-index: -1;
-    border-top-left-radius:35px;
-    border-top-right-radius:35px;
-    height: 220px;
-    top:50%;
+  background-color: #ffc609;
+  position: absolute;
+  width:100%;
+  z-index: -1;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  height: 220px;
+  top: 50%;
+ 
 `;
 export const WhiteInnerSection = styled.div`
-background-color: white;
-    position: absolute;
-    width: 470px;
-    z-index: -1;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
-    height: 220px;
-    top:100%;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 220px;
+  top: 100%;
+ 
 `;
