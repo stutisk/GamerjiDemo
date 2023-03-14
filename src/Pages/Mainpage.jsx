@@ -14,6 +14,8 @@ import {
   YellowInnerSection,
   WhiteInnerSection,
 } from "../Styles/Mainpage.style";
+
+ 
 export const Mainpage = () => {
   return (
 

@@ -4,7 +4,7 @@ import {
   Cards2text,
   Cardmarqueetext,
 } from "../Styles/Card.style";
-
+import axios from "axios";
 
 const cards = [
   {
@@ -21,11 +21,33 @@ const cards = [
   },
 ];
 
+const fetchData = async () => {
+  const headers = {
+    "x-access-token": "AYCe6lL4KhkuVTzJ31f/siKMucPrOdLE1LZfXv/oYGvFS7RF2JWr7OZijNIaz3TtrFvXZD1kpvWLAnUPln7WvQ==",
+    "company-code": "GJ",
+    "content-type": "application/json",
+    "country": "611e04284ac17121fd8b1a54"
+  };
+  
+  const body = {
+    skip: 0,
+    limit: 2,
+    sort: "desc",
+    sortBy: "createdAt"
+  };
+  
+  const response = await axios.post("https://api.gamerji.tech/api/blogs/list", body, { headers });
+  console.log(response.data.list)
+};
+fetchData();
+
+
+
 export const Cards2 = () => {
   return (
     <>
       {cards.map((card) => (
-        <Cards2Container style={{ backgroundColor: card.color}}>
+        <Cards2Container style={{ backgroundColor: card.color }}>
           <Cards2Image>
             <img
               src={card.image}
@@ -34,10 +56,8 @@ export const Cards2 = () => {
               className="border-radius"
             />
           </Cards2Image>
-          <Cardmarqueetext >
-            <div className="marqueeText">
-            {card.title}
-            </div>
+          <Cardmarqueetext>
+            <div className="marqueeText">{card.title}</div>
           </Cardmarqueetext>
           <Cards2text>{card.title}</Cards2text>
         </Cards2Container>
